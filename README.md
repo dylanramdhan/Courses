@@ -1,3 +1,2 @@
-# Projects
-
-Hello and welcome! In this repository, I have included projects that I have participated in. Please feel free to browse!
+# Courses
+In this repo, you'll see the courses I've taken and the many projects and coursework that I've done! 
