@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Image Filterer</string>
+
+    /**
+    * Declaring strings to be used for GUI
+    * @author Daniellia Sumigar
+    **/
+
+    // BUTTON NAMES
+    <string name="uploadimage">Upload Image</string>
+    <string name="uploadtext">Upload Text</string>
+    <string name="resize">Resize</string>
+    <string name="recolor">Recolor</string>
+    <string name="rotate">Rotate</string>
+    <string name="blur">Apply Blur</string>
+    <string name="grayscale">Apply Grayscale</string>
+    <string name="zeroGB">Zero GB</string>
+    <string name="help">Help</string>
+
+    // DISPLAY FEATURES
+    <string name="dispimage">Image </string>
+    <string name="dispimageproperties">Display Image Properties</string>
+    <string name="histogram">Histogram </string>
+    <string name="histogramView">Display Histogram</string>
+
+    // RESIZE STRINGS
+    <string name="edit_height">Edit Height</string>
+    <string name="edit_width">Edit Width </string>
+
+    // ROTATE STRINGS
+    <string name="angle">Edit Angle </string>
+
+    //RECOLOR STRINGS
+    <string name="target_R">Target R </string>
+    <string name="target_G">Target G </string>
+    <string name="target_B">Target B </string>
+    <string name="new_R">New R </string>
+    <string name="new_G">New G </string>
+    <string name="new_B">New B </string>
+
+
+</resources>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/uploadimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="@string/uploadimage" />
+
+        <Button
+            android:id="@+id/uploadtext"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/uploadtext" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_dropdown_light_frame"
+            android:layout_below = "@+id/uploadimage">
+
+            <ImageView
+                android:id="@+id/dispimage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/dispimage"
+                android:scaleType="fitCenter"
+                android:layout_below = "@+id/uploadimage"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="1060dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_dropdown_light_frame">
+
+            <ImageView
+                android:id="@+id/histogramView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/histogramView"
+                android:scaleType="fitCenter" />
+        </FrameLayout>
+
+    <Button
+        android:id="@+id/resize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="420dp"
+        android:text="@string/resize"
+        android:layout_below = "@+id/uploadimage"/>
+
+    <Button
+        android:id="@+id/rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="600dp"
+        android:text="@string/rotate" />
+
+    <EditText
+        android:id="@+id/angle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="650dp"
+        android:hint="@string/angle"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edit_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="510dp"
+        android:hint="@string/edit_height"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edit_width"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="550dp"
+        android:hint="@string/edit_width"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/imageblur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="710dp"
+        android:text="@string/blur" />
+
+    <Button
+        android:id="@+id/zeroGB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="710dp"
+        android:text="@string/zeroGB" />
+
+    <Button
+        android:id="@+id/grayscale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageblur"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/grayscale" />
+
+        <Button
+            android:id="@+id/recolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/zeroGB"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="70dp"
+            android:text="@string/recolor" />
+
+        <EditText
+            android:id="@+id/target_R"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="875dp"
+            android:hint="@string/target_R"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/target_G"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="875dp"
+            android:hint="@string/target_G"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/target_B"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="875dp"
+            android:hint="@string/target_B"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/new_R"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="940dp"
+            android:hint="@string/new_R"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/new_G"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="940dp"
+            android:hint="@string/new_G"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/new_B"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="940dp"
+            android:hint="@string/new_B"
+            android:inputType="number" />
+
+        <Button
+        android:id="@+id/histogram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="1000dp"
+        android:text="@string/histogram" />
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="420dp"
+            android:text="@string/help"
+            android:layout_below="@+id/uploadimage" />
+
+    </RelativeLayout>
+</ScrollView>
