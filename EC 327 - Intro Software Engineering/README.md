@@ -5,5 +5,5 @@ This course aims to introduce students to software design, programming technique
 
 ### Skillsets Learned:
 📲 Android Studio<br>
-💻 Java, C++, Bash, Shell Script, Verilog, Assembly <br>
+💻 Java, C++, C, Bash, Shell Script, Verilog, Assembly <br>
 🧑‍💻 Git, GitHub
