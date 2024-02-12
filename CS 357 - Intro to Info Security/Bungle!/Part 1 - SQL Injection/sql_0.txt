@@ -1,0 +1,7 @@
+username: victim
+password: random' OR 'x'='x
+
+username=victim&password=random%27%20OR%20%27x%27%3D%27x
+
+
+sources: 'SQL Injection' blog by Steve Friedl, http://www.unixwiz.net/techtips/sql-injection.html
