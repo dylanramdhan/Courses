@@ -1,3 +1,7 @@
-# Projects
+## CS 357: Intro to Info Security
 
-Hello and welcome! In this repository, I have included projects that I have participated in. Please feel free to browse!
+### Course Description
+Provides basic concepts needed for understanding information security. Discusses vulnerabilities, design principles, basic algorithms, security definitions, and analytical methods. Covers system security, network security, web security, cryptography, and data privacy. Also addresses social, ethical, and policy aspects of security.
+
+### Skillsets Developed:
+💻 Python <br>
