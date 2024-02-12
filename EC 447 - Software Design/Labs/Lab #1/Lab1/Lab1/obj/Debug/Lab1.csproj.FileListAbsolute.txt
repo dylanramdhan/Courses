@@ -1,0 +1,11 @@
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #1\Lab1\Lab1\obj\Debug\Lab1.csproj.AssemblyReference.cache
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #1\Lab1\Lab1\obj\Debug\Lab1.csproj.SuggestedBindingRedirects.cache
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #1\Lab1\Lab1\obj\Debug\Lab1.Form1.resources
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #1\Lab1\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #1\Lab1\Lab1\obj\Debug\Lab1.csproj.GenerateResource.cache
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #1\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #1\Lab1\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #1\Lab1\Lab1\bin\Debug\Lab1.exe
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #1\Lab1\Lab1\bin\Debug\Lab1.pdb
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #1\Lab1\Lab1\obj\Debug\Lab1.exe
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #1\Lab1\Lab1\obj\Debug\Lab1.pdb

@@ -1,0 +1,11 @@
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #2\Lab2\Lab2\bin\Debug\Lab2.exe.config
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #2\Lab2\Lab2\bin\Debug\Lab2.exe
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #2\Lab2\Lab2\bin\Debug\Lab2.pdb
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #2\Lab2\Lab2\obj\Debug\Lab2.csproj.AssemblyReference.cache
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #2\Lab2\Lab2\obj\Debug\Lab2.csproj.SuggestedBindingRedirects.cache
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #2\Lab2\Lab2\obj\Debug\Lab2.Form1.resources
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #2\Lab2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #2\Lab2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.cache
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #2\Lab2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #2\Lab2\Lab2\obj\Debug\Lab2.exe
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #2\Lab2\Lab2\obj\Debug\Lab2.pdb

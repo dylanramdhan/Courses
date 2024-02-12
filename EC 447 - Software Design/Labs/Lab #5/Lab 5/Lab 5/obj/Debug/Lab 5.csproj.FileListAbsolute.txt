@@ -1,0 +1,15 @@
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #5\Lab 5\Lab 5\obj\Debug\Lab 5.csproj.AssemblyReference.cache
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #5\Lab 5\Lab 5\obj\Debug\Lab 5.csproj.SuggestedBindingRedirects.cache
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #5\Lab 5\Lab 5\obj\Debug\Lab_5.Properties.Resources.resources
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #5\Lab 5\Lab 5\obj\Debug\Lab_5.Properties.SettingDialog.resources
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #5\Lab 5\Lab 5\obj\Debug\Lab 5.csproj.GenerateResource.cache
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #5\Lab 5\Lab 5\obj\Debug\Lab 5.csproj.CoreCompileInputs.cache
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #5\Lab 5\Lab 5\obj\Debug\Lab_5.Form1.resources
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #5\Lab 5\Lab 5\obj\Debug\Lab_5.Form1.aa.resources
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #5\Lab 5\Lab 5\bin\Debug\Lab 5.exe.config
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #5\Lab 5\Lab 5\bin\Debug\Lab 5.exe
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #5\Lab 5\Lab 5\bin\Debug\Lab 5.pdb
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #5\Lab 5\Lab 5\bin\Debug\aa\Lab 5.resources.dll
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #5\Lab 5\Lab 5\obj\Debug\aa\Lab 5.resources.dll
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #5\Lab 5\Lab 5\obj\Debug\Lab 5.exe
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\Labs\Lab #5\Lab 5\Lab 5\obj\Debug\Lab 5.pdb

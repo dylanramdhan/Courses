@@ -1,0 +1,8 @@
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\HelloWorld\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\HelloWorld\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\HelloWorld\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\HelloWorld\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\HelloWorld\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.SuggestedBindingRedirects.cache
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\HelloWorld\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\HelloWorld\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\dylan\OneDrive\Documents\Coding\Microsoft Visual Studio Community\EC 447\HelloWorld\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
