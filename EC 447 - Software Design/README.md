@@ -6,3 +6,5 @@ Object-oriented software design for desktop applications with a graphical user i
 ### Skillsets Developed:
 📲 .NET Framework<br>
 💻 C#<br>
+
+# Rewrite files into C# extensions (.cs) to show code & make GIFS of demonstrations!!
