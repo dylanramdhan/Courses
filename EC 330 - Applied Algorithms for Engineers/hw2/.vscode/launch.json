@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/dylanramdhan/Documents/Visual Studio Code/Courses/EC330/hw2",
+      "program": "/Users/dylanramdhan/Documents/Visual Studio Code/Courses/EC330/hw2/build/Debug/outDebug"
+    }
+  ]
+}
