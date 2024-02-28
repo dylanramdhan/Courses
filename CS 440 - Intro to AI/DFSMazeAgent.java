@@ -33,7 +33,7 @@ public class DFSMazeAgent
                        StateView state)
     {
         Set<Vertex> visited = new HashSet<>(); // HashSet to keep track of visited nodes
-        Stack<Path> queue = new Stack<>(); // Queue to manage the nodes to visit
+        Stack<Path> stack = new Stack<>(); // Queue to manage the nodes to visit
         
         Path begin = new Path(src);
         Path gold = new Path(goal);
