@@ -1,0 +1,57 @@
+[0/1] Re-running CMake...
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/dylanramdhan/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/dylanramdhan/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/dylanramdhan/Documents/Visual Studio Code/EC444/Quest 1/Battery/sample_project/sdkconfig
+-- App "main" version: 1
+-- Adding linker script /Users/dylanramdhan/Documents/Visual Studio Code/EC444/Quest 1/Battery/sample_project/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/dylanramdhan/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /Users/dylanramdhan/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/dylanramdhan/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/dylanramdhan/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/dylanramdhan/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/dylanramdhan/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/dylanramdhan/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/dylanramdhan/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/dylanramdhan/esp/esp-idf/components/app_trace /Users/dylanramdhan/esp/esp-idf/components/app_update /Users/dylanramdhan/esp/esp-idf/components/bootloader /Users/dylanramdhan/esp/esp-idf/components/bootloader_support /Users/dylanramdhan/esp/esp-idf/components/bt /Users/dylanramdhan/esp/esp-idf/components/cmock /Users/dylanramdhan/esp/esp-idf/components/console /Users/dylanramdhan/esp/esp-idf/components/cxx /Users/dylanramdhan/esp/esp-idf/components/driver /Users/dylanramdhan/esp/esp-idf/components/efuse /Users/dylanramdhan/esp/esp-idf/components/esp-tls /Users/dylanramdhan/esp/esp-idf/components/esp_adc /Users/dylanramdhan/esp/esp-idf/components/esp_app_format /Users/dylanramdhan/esp/esp-idf/components/esp_coex /Users/dylanramdhan/esp/esp-idf/components/esp_common /Users/dylanramdhan/esp/esp-idf/components/esp_eth /Users/dylanramdhan/esp/esp-idf/components/esp_event /Users/dylanramdhan/esp/esp-idf/components/esp_gdbstub /Users/dylanramdhan/esp/esp-idf/components/esp_hid /Users/dylanramdhan/esp/esp-idf/components/esp_http_client /Users/dylanramdhan/esp/esp-idf/components/esp_http_server /Users/dylanramdhan/esp/esp-idf/components/esp_https_ota /Users/dylanramdhan/esp/esp-idf/components/esp_https_server /Users/dylanramdhan/esp/esp-idf/components/esp_hw_support /Users/dylanramdhan/esp/esp-idf/components/esp_lcd /Users/dylanramdhan/esp/esp-idf/components/esp_local_ctrl /Users/dylanramdhan/esp/esp-idf/components/esp_mm /Users/dylanramdhan/esp/esp-idf/components/esp_netif /Users/dylanramdhan/esp/esp-idf/components/esp_netif_stack /Users/dylanramdhan/esp/esp-idf/components/esp_partition /Users/dylanramdhan/esp/esp-idf/components/esp_phy /Users/dylanramdhan/esp/esp-idf/components/esp_pm /Users/dylanramdhan/esp/esp-idf/components/esp_psram /Users/dylanramdhan/esp/esp-idf/components/esp_ringbuf /Users/dylanramdhan/esp/esp-idf/components/esp_rom /Users/dylanramdhan/esp/esp-idf/components/esp_system /Users/dylanramdhan/esp/esp-idf/components/esp_timer /Users/dylanramdhan/esp/esp-idf/components/esp_wifi /Users/dylanramdhan/esp/esp-idf/components/espcoredump /Users/dylanramdhan/esp/esp-idf/components/esptool_py /Users/dylanramdhan/esp/esp-idf/components/fatfs /Users/dylanramdhan/esp/esp-idf/components/freertos /Users/dylanramdhan/esp/esp-idf/components/hal /Users/dylanramdhan/esp/esp-idf/components/heap /Users/dylanramdhan/esp/esp-idf/components/http_parser /Users/dylanramdhan/esp/esp-idf/components/idf_test /Users/dylanramdhan/esp/esp-idf/components/ieee802154 /Users/dylanramdhan/esp/esp-idf/components/json /Users/dylanramdhan/esp/esp-idf/components/log /Users/dylanramdhan/esp/esp-idf/components/lwip /Users/dylanramdhan/Documents/Visual Studio Code/EC444/Quest 1/Battery/sample_project/main /Users/dylanramdhan/esp/esp-idf/components/mbedtls /Users/dylanramdhan/esp/esp-idf/components/mqtt /Users/dylanramdhan/esp/esp-idf/components/newlib /Users/dylanramdhan/esp/esp-idf/components/nvs_flash /Users/dylanramdhan/esp/esp-idf/components/openthread /Users/dylanramdhan/esp/esp-idf/components/partition_table /Users/dylanramdhan/esp/esp-idf/components/perfmon /Users/dylanramdhan/esp/esp-idf/components/protobuf-c /Users/dylanramdhan/esp/esp-idf/components/protocomm /Users/dylanramdhan/esp/esp-idf/components/pthread /Users/dylanramdhan/esp/esp-idf/components/sdmmc /Users/dylanramdhan/esp/esp-idf/components/soc /Users/dylanramdhan/esp/esp-idf/components/spi_flash /Users/dylanramdhan/esp/esp-idf/components/spiffs /Users/dylanramdhan/esp/esp-idf/components/tcp_transport /Users/dylanramdhan/esp/esp-idf/components/ulp /Users/dylanramdhan/esp/esp-idf/components/unity /Users/dylanramdhan/esp/esp-idf/components/usb /Users/dylanramdhan/esp/esp-idf/components/vfs /Users/dylanramdhan/esp/esp-idf/components/wear_levelling /Users/dylanramdhan/esp/esp-idf/components/wifi_provisioning /Users/dylanramdhan/esp/esp-idf/components/wpa_supplicant /Users/dylanramdhan/esp/esp-idf/components/xtensa
+-- Configuring done (2.4s)
+-- Generating done (0.3s)
+-- Build files have been written to: /Users/dylanramdhan/Documents/Visual Studio Code/EC444/Quest 1/Battery/sample_project/build
+[1/9] Performing build step for 'bootloader'
+[1/1] cd "/Users/dylanramdhan/Documents/Visual Studio Code/EC444/Quest 1/Battery/sample_project/build/bootloader/esp-idf/esptool_py" && /Users/dylanramdhan/.espressif/python_env/idf5.1_py3.11_env/bin/python /Users/dylanramdhan/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/dylanramdhan/Documents/Visual\ Studio\ Code/EC444/Quest\ 1/Battery/sample_project/build/bootloader/bootloader.bin
+Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
+[2/9] No install step for 'bootloader'
+[3/9] Completed 'bootloader'
+[4/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from /Users/dylanramdhan/Documents/Visual Studio Code/EC444/Quest 1/Battery/sample_project/main/main.c:14:
+/Users/dylanramdhan/esp/esp-idf/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from /Users/dylanramdhan/Documents/Visual Studio Code/EC444/Quest 1/Battery/sample_project/main/main.c:15:
+/Users/dylanramdhan/esp/esp-idf/components/esp_adc/deprecated/include/esp_adc_cal.h:17:2: warning: #warning "legacy adc calibration driver is deprecated, please migrate to use esp_adc/adc_cali.h and esp_adc/adc_cali_scheme.h" [-Wcpp]
+   17 | #warning "legacy adc calibration driver is deprecated, please migrate to use esp_adc/adc_cali.h and esp_adc/adc_cali_scheme.h"
+      |  ^~~~~~~
+[5/9] Linking C static library esp-idf/main/libmain.a
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable main.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.7.dev1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /Users/dylanramdhan/Documents/Visual Studio Code/EC444/Quest 1/Battery/sample_project/build/main.bin
+[9/9] cd "/Users/dylanramdhan/Documents/Visual Studio Code/EC444/Quest 1/Battery/sample_project/build/esp-idf/esptool_py" && /Users/dylanramdhan/.espressif/python_env/idf5.1_py3.11_env/bin/python /Users/dylanramdhan/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/dylanramdhan/Documents/Visual\ Studio\ Code/EC444/Quest\ 1/Battery/sample_project/build/partition_table/partition-table.bin /Users/dylanramdhan/Documents/Visual\ Studio\ Code/EC444/Quest\ 1/Battery/sample_project/build/main.bin
+main.bin binary size 0x2c820 bytes. Smallest app partition is 0x100000 bytes. 0xd37e0 bytes (83%) free.

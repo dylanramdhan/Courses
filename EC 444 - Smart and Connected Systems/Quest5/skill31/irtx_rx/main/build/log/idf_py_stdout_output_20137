@@ -1,0 +1,4 @@
+[0/1] Re-running CMake...
+-- Configuring incomplete, errors occurred!
+FAILED: build.ninja 
+/opt/homebrew/Cellar/cmake/3.27.5/bin/cmake --regenerate-during-build -S"/Users/dylanramdhan/Documents/Visual Studio Code/EC444/Quest0/06-GPIOs/gpio_s06/main" -B"/Users/dylanramdhan/Documents/Visual Studio Code/EC444/Quest0/06-GPIOs/gpio_s06/main/build"

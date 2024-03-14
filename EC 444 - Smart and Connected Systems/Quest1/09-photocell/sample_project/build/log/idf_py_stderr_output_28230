@@ -1,0 +1,6 @@
+[0;33m--- esp-idf-monitor 1.2.1 on flash 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33mConnection to flash failed. Available ports:
+/dev/cu.Bluetooth-Incoming-Port
+/dev/cu.usbserial-01D1CF13[0m
+[0m

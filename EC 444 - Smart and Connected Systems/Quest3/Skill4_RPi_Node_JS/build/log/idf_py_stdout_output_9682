@@ -1,0 +1,8 @@
+-- Found Git: /usr/bin/git (found version "2.39.2 (Apple Git-143)") 
+-- The ASM compiler identification is AppleClang
+-- Found assembler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/dylanramdhan/Documents/Visual Studio Code/EC444/Quest 1/Battery/sample_project/sdkconfig
+-- Configuring incomplete, errors occurred!

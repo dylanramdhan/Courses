@@ -1,0 +1,6 @@
+source "/Users/dylanramdhan/esp/esp-idf/components/bootloader/Kconfig.projbuild"
+source "/Users/dylanramdhan/esp/esp-idf/components/esp_app_format/Kconfig.projbuild"
+source "/Users/dylanramdhan/esp/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "/Users/dylanramdhan/esp/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "/Users/dylanramdhan/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+source "/Users/dylanramdhan/Documents/Visual Studio Code/EC444/Quest 3/Skill 3 - Wifi Station/station/main/Kconfig.projbuild"

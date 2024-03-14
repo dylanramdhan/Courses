@@ -1,0 +1,67 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define NUM_MOLES 20
+#define NUM_WHACKS 10
+
+typedef enum {
+    IDLE,
+    WHACK,
+    GAME_OVER
+} GameState;
+
+int main() {
+    srand(time(NULL));
+
+    int moles[NUM_MOLES] = {0}; // Moles appearing on the board (0 - not shown, 1 - shown)
+    int score = 0;
+    int remainingWhacks = NUM_WHACKS;
+    GameState state = IDLE;
+
+    while (state != GAME_OVER) {
+        switch (state) {
+            case IDLE:
+                printf("Whack-a-Mole Game!\n");
+                printf("Remaining Whacks: %d\n", remainingWhacks);
+                printf("Moles:\n");
+                for (int i = 0; i < NUM_MOLES; ++i) {
+                    printf("%d ", moles[i]);
+                }
+                printf("\n");
+                if (remainingWhacks > 0) {
+                    state = WHACK;
+                } else {
+                    state = GAME_OVER;
+                }
+                break;
+
+            case WHACK:
+                printf("Enter mole number to whack (1-20): ");
+                int moleToWhack;
+                scanf("%d", &moleToWhack);
+                if (moleToWhack >= 1 && moleToWhack <= 20) {
+                    if (moles[moleToWhack - 1] == 1) {
+                        printf("You whacked mole %d!\n", moleToWhack);
+                        moles[moleToWhack - 1] = 0;
+                        score++;
+                    } else {
+                        printf("No mole there! Try again.\n");
+                    }
+                    remainingWhacks--;
+                    state = IDLE;
+                } else {
+                    printf("Invalid mole number. Please enter a number between 1 and 20.\n");
+                }
+                break;
+
+            default:
+                break;
+        }
+    }
+
+    printf("Game Over!\n");
+    printf("Your score: %d\n", score);
+
+    return 0;
+}
