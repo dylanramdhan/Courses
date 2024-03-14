@@ -5,5 +5,5 @@ Hands-on introductory course to cyber-physical and IoT systems. Microcontrollers
 
 ### Skillset Developed:
 💻 C++, C, JavaScript, Node.js <br>
-💾 ESP32, IoT Systems, Wifi/Bluetooth Connectivity <br>
+💾 ESP32, Raspberry Pi, IoT Systems, Wifi/Bluetooth Connectivity <br>
 👨🏽‍💻 MongoDB, GitHub
