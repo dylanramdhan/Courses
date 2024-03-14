@@ -1,0 +1,51 @@
+<!-- Quest 3: Straba Social Media Hub
+
+Authors: Nick Ramondo, Dylan Ramdhan, Mete Gumusayak, Houjie Xiong -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Plotting of Data from Serial Port Using Canvas</title>
+    <!-- Include CanvasJS library -->
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+</script>
+<body>
+    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+    <script>
+        // Create an empty data array for the chart
+        function CreateChart(dataSeries) {
+    
+            // Create a CanvasJS chart
+            var chart = new CanvasJS.Chart("chartContainer", {
+                axisY: [{
+                    title: "Steps",
+                    includeZero: true
+                },
+                {
+                    title: "Body Temperature",
+                    includeZero: true
+                }],
+                toolTip:{
+                    enabled: true, 
+                    shared: true
+                    },
+                data: dataSeries
+            });
+
+            chart.render();
+
+        }
+      // Listen for data delivered to the socket (from the node server)
+    const socket = io.connect();
+    socket.on("data", (data) => {
+        // Parse the received data 
+        CreateChart(data);
+    });
+    </script>
+</body>
+</html>
