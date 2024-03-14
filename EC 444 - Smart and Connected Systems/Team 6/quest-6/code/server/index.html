@@ -1,0 +1,115 @@
+<!--Team6-Xiong-Ramdhan-Gumusayak-Ramondo - 12/9     -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab temperatures</title>
+  <!-- Include CanvasJS library -->
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+</script>
+
+<body>
+  <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+  Thermometer ID:<input id="xValue" type="number" step="any" placeholder="Enter Thermometer ID">
+  Desired Temp:<input id="yValue" type="number" step="any" placeholder="Enter Desired Temp">
+  <button id="renderButton">Update</button>
+  <script>
+    function addDataPointsAndRender() {
+      xValue = Number(document.getElementById('xValue').value);
+      yValue = Number(document.getElementById('yValue').value);
+      console.log(xValue, yValue)
+      socket.emit('data', [xValue, yValue]);
+    }
+
+    var colors = [0,'#75151E','#F03472','#2C5545','#008F39','#F80000'] 
+    var renderButton = document.getElementById('renderButton');
+    renderButton.addEventListener('click', addDataPointsAndRender);
+    // Create an empty data array for the chart
+    var allData = []
+    function CreateChart(indata) {
+      var points = [];
+      // console.log(data)
+      if (allData.length == 0) {
+        allData.push(indata)
+      } else {
+        allData[0].push(indata)
+      }
+      console.log('alldata', allData)
+      // allData = allData[0].slice(-100)
+      data = allData[0].slice(-100)
+      console.log('data', data)
+
+      graphs = []
+      var ids = []
+
+      // Loop through each line in data
+      var steps = 0;
+      for (var i = 0; i < data.length; i++) {
+        var parts = data[i]
+        if (parts.length === 3) {
+          var id = parseInt(parts[0]);
+          var temp = parseFloat(parts[1]);
+          var time = parts[2];
+          time = new Date(time);
+          if (!ids.includes(id)) {
+            ids.push(id);
+
+            graphs[id] = {
+              type: "line",
+              name: id.toString(),
+              axisYIndex: 0,
+              showInLegend: true,
+              dataPoints: [],
+              color:colors[id],
+              legendMarkerType: "y"
+            };
+          }
+
+
+          graphs[id].dataPoints.push({ x: time, y: temp });
+
+        }
+      }
+      console.log('graphs', graphs)
+      var dataSeries = [];
+
+      for (var i in ids) {
+        dataSeries.push(graphs[ids[i]]);
+      }
+      console.log(dataSeries)
+      // Create a CanvasJS chart
+      var chart = new CanvasJS.Chart("chartContainer", {
+        axisX: {
+          title: "Time",
+          valueFormatString: "HH:mm:ss",
+
+        },
+        axisY: [{
+          title: "Temperature (°C)",
+        }],
+        toolTip: {
+          enabled: true,
+          shared: true
+        },
+        data: dataSeries
+      });
+
+      chart.render();
+    }
+    // Listen for data delivered to the socket (from the node server)
+    const socket = io.connect();
+    socket.on("data", (data) => {
+      // Parse the received data 
+      CreateChart(data);
+    });
+  </script>
+</body>
+
+</html>

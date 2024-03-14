@@ -1,0 +1,2 @@
+# Code Readme
+In this quest, our code is mainly in the files **./mqtt5/main/app_main.c** which could be found in our client's *ESP32*. As for the code in the **server** file, the code contains the code that the program could running on the Pi, which includes the **index.html** and **mqttnode.js** files.
