@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Plotting of Data from Serial Port Using Canvas</title>
+    <!-- Include CanvasJS library -->
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+</script>
+<body>
+    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+    <script>
+        // Create an empty data array for the chart
+        function parseCSVAndCreateChart(data) {
+          var points = [];
+            var lines = data.split("\r");
+            // Create data series for each stock
+            var ids = {};
+            ids[0] ={
+                type: "line",
+                name: "Body Temperature",
+                axisYIndex: 0,
+                showInLegend: true,
+                dataPoints: [],
+                legendMarkerType: "n"
+            };
+            ids[1] ={
+                type: "line",
+                name: "Total steps",
+                axisYIndex: 1,
+                showInLegend: true,
+                dataPoints: [],
+                legendMarkerType: "n"
+            };
+            lines = lines.slice(-50)
+            // Loop through each line in the CSV file
+            var steps = 0;
+            for (var i = 1; i < lines.length-1; i++) {
+                var parts = lines[i].split(",");
+                if (parts.length === 3) {
+                    var m = parseInt(parts[0].split(":")[0]);
+                    var s = parseInt(parts[0].split(":")[1]);
+                    var temp = parseFloat(parts[1]);
+                    steps = steps+parseInt(parts[2]);
+                    var time = new Date;
+                    time.setMinutes(m);
+                    time.setSeconds(s);
+                    ids[0].dataPoints.push({ x: time, y: temp});
+                    ids[1].dataPoints.push({ x: time, y: steps});
+                }
+            }
+            ids[0].dataPoints = ids[0].dataPoints.slice(-10)
+            ids[1].dataPoints = ids[1].dataPoints.slice(-10)
+            var dataSeries = [];
+            for (var id in ids) {
+                dataSeries.push(ids[id]);
+            }
+            // Create a CanvasJS chart
+            var chart = new CanvasJS.Chart("chartContainer", {
+                axisX: {
+                    title: "Time",
+                    valueFormatString: "mm:ss",
+                    interval: 1,
+                    intervalType: "second",
+                },
+                axisY: [{
+                    title: "Body Temperature",
+                },
+                {
+                    title: "Steps",
+                }],
+                toolTip:{
+                    enabled: true, 
+                    shared: true
+                    },
+                data: dataSeries
+            });
+
+            chart.render();
+        }
+      // Listen for data delivered to the socket (from the node server)
+        const socket = io.connect();
+        socket.on("data", (data) => {
+            // Parse the received data 
+            parseCSVAndCreateChart(data);
+        });
+    </script>
+</body>
+</html>
