@@ -1,3 +1,4 @@
-# Projects
+# EC 413: Computer Organization
+## Description
 
-Hello and welcome! In this repository, I have included projects that I have participated in. Please feel free to browse!
+## Skillset
