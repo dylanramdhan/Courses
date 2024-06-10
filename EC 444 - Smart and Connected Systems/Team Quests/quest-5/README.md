@@ -90,7 +90,7 @@ IR Receiver & IR Transmitter Build
 <br>
 
 ### Investigative Question & Response
-Investigative Question: How can our secure parking be hacked? 
+_Investigative Question: How can our secure parking be hacked?_
 
 There are a number of vulnerabilities in this method that a user can take advantage of to misuse the system in place. One possible way would be to have a clone key fob with an identical IR signal. An identical IR signal would allow a user to act as the owner of the original fob and open up their parking space or falsely charge the original owner for parking. A potential fix for this issue would be to add another step to the verification process. A keypad could be inserted into the meter and it would be simple to ask for a 4 digit password from the user and have it verified by a database that holds the Fob IDs and Pin numbers together.
 
