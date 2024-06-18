@@ -1,0 +1,6 @@
+edu.bu.battleship
+edu.bu.battleship.agents
+edu.bu.battleship.game
+edu.bu.battleship.game.ships
+edu.bu.battleship.rendering
+edu.bu.battleship.utils

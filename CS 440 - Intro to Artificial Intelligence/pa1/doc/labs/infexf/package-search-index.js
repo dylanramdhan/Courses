@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"edu.bu.labs.infexf.agents"},{"l":"edu.bu.labs.infexf.distance"},{"l":"edu.bu.labs.infexf.graph"}];updateSearchResults();

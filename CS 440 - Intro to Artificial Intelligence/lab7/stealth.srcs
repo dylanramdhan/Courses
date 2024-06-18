@@ -1,0 +1,3 @@
+src/labs/stealth/agents/BFSMazeAgent.java
+src/labs/stealth/agents/DFSMazeAgent.java
+src/labs/stealth/agents/DijkstraMazeAgent.java
