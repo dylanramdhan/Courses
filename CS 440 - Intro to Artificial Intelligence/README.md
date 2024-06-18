@@ -5,4 +5,4 @@ Introduction to computer systems that exhibit intelligent behavior, in particula
 
 ### Skillset
 💻 Java 8 <br>
-👨🏽‍💻 GitHub Repo
+👨🏽‍💻 UNIX, GitHub
