@@ -1,0 +1,3 @@
+javac -cp ./../lib/Sepia.jar @jar.srcs
+
+jar cvf ./../lib/stealth.jar edu/
