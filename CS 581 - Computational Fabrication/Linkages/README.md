@@ -8,16 +8,16 @@ This assingment was understanding linkages and their ability to create functiona
 <p align="center">
 Linkage 1
 </p>
-
+<br>
 <p align="center">
-<img src="./images/ss2.png" width="50%">
+<img src="./images/ss2.png" width="30%">
 </p>
 <p align="center">
 Linkage 2
 </p>
-
+<br>
 <p align="center">
-<img src="./images/ss3.png" width="50%">
+<img src="./images/ss3.png" width="30%">
 </p>
 <p align="center">
 Linkage 3
