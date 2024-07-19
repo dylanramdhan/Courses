@@ -3,7 +3,7 @@ This assingment was understanding linkages and their ability to create functiona
 
 ### Some Working Linkages!
 <p align="center">
-<img src="./images/ss1.png" width="40%">
+<img src="./images/ss1.png" width="30%">
 </p>
 <p align="center">
 Linkage 1
