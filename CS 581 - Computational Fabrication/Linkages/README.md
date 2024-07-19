@@ -10,14 +10,14 @@ Linkage 1
 </p>
 
 <p align="center">
-<img src="./images/ss2" width="50%">
+<img src="./images/ss2.png" width="50%">
 </p>
 <p align="center">
 Linkage 2
 </p>
 
 <p align="center">
-<img src="./images/ss3" width="50%">
+<img src="./images/ss3.png" width="50%">
 </p>
 <p align="center">
 Linkage 3
