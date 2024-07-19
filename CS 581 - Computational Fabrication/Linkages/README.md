@@ -1,5 +1,5 @@
 ### Linkages Assingment
-This assingment was understanding linkages and their ability to create functional moving animations.
+This assingment was understanding [linkages](https://en.wikipedia.org/wiki/Linkage_(mechanical)) and their ability to create functional moving animations.
 
 ### Some Working Linkages!
 <p align="center">
