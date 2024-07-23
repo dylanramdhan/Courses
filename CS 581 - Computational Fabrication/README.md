@@ -7,7 +7,7 @@ Introduces 3D printing technology and computational methods for creating physica
 💻  C++, MATLAB <br>
 🖨️  FDM, SLA, DLP, SLS, DMLS, BMD <br>
 
-### Assignments:
+### Notable Assignments: <br>
 ### Linkages Assingment:
 This assingment was understanding [linkages](https://en.wikipedia.org/wiki/Linkage_(mechanical)) and their ability to create functional moving animations.
 
