@@ -5,7 +5,7 @@ Introduces 3D printing technology and computational methods for creating physica
 
 ### Skillset Developed:
 💻  C++, MATLAB <br>
-🖨️  FDM, SLA, DLP, SLS, DMLS, BMD <br>
+🖨️  FDM, SLA, DLP, SLS, DMLS, BMD <br> <br>
 
 ## Notable Assignments:
 ### Linkages Assingment:
