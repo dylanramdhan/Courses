@@ -36,14 +36,14 @@ Linkage 3
 ### Voxels:
 This assignment was focused on the understanding of [voxels](https://en.wikipedia.org/wiki/Voxel) and creating the ability to create sizes of 32x32x32 and 64x64x64.
 <p align="center">
-<img src="./images/bunny.png" width="30%">
+<img src="./images/bunny.png" width="40%">
 </p>
 <p align="center">
 Bunny
 </p>
 <br>
 <p align="center">
-<img src="./images/teapot.png" width="30%">
+<img src="./images/teapot.png" width="40%">
 </p>
 <p align="center">
 Teapot
