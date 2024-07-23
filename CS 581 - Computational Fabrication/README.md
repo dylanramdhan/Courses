@@ -5,4 +5,45 @@ Introduces 3D printing technology and computational methods for creating physica
 
 ### Skillset Developed:
 💻  C++, MATLAB <br>
-🖨️  FDM, SLA, DLP, SLS, DMLS, BMD
+🖨️  FDM, SLA, DLP, SLS, DMLS, BMD <br>
+
+### Assignments:
+### Linkages Assingment:
+This assingment was understanding [linkages](https://en.wikipedia.org/wiki/Linkage_(mechanical)) and their ability to create functional moving animations.
+
+<p align="center">
+<img src="./images/ss1.png" width="30%">
+</p>
+<p align="center">
+Linkage 1
+</p>
+<br>
+<p align="center">
+<img src="./images/ss2.png" width="30%">
+</p>
+<p align="center">
+Linkage 2
+</p>
+<br>
+<p align="center">
+<img src="./images/ss3.png" width="30%">
+</p>
+<p align="center">
+Linkage 3
+</p>
+<br>
+
+### Voxels:
+<p align="center">
+<img src="./images/bunny.png" width="30%">
+</p>
+<p align="center">
+Bunny
+</p>
+<br>
+<p align="center">
+<img src="./images/teapot.png" width="30%">
+</p>
+<p align="center">
+Teapot
+</p>
