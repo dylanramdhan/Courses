@@ -19,7 +19,9 @@ def haversine_distance(lat1, lon1, lat2, lon2):
     # Haversine formula to find the great-circle distance
     dist_lati = lat2 - lat1
     dist_long = lon2 - lon1
-    a = math.sin(dist_lati / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin(dist_long / 2) ** 2 # ** means to raise to the power of 2
+    
+    # ** means to raise to the power of 2
+    a = math.sin(dist_lati / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin(dist_long / 2) ** 2
     c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
 
     # Earth's radius in kilometers
@@ -42,8 +44,9 @@ def match_closest_points(array1, array2):
             if distance < min_distance:
                 min_distance = distance
                 closest_point = (lat2, lon2)
-
-        results.append(((lat1, lon1), closest_point, min_distance)) # store matched pair w/unbreakable bond of distance
+        
+        # store matched pair w/unbreakable bond of distance
+        results.append(((lat1, lon1), closest_point, min_distance)) 
 
     return results
 
