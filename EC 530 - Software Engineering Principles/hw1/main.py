@@ -2,7 +2,7 @@
 Assignment #1, due date: 1/23/2025
 Engineer: Dylan Ramdhan
 
-Mission of Module: If user gives two arrays of GeoLocations, match each point in the first array
+Mission of Module: If user gives two arrays of Geolocations, match each point in the first array
                     to its closest neighbor in the second array.
                     
     Formula for distance between two GPS location:  
