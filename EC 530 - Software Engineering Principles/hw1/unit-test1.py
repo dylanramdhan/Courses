@@ -11,6 +11,7 @@ Formula for distance between two GPS location:
         --->> UNIT TESTING #1 <<---
         First Input:  Your current GPS location
         Second Vector:  Columns AB and  AC of Boston 311 2025  Report (you can find the originals in:  https://data.boston.gov/dataset/311-service-requests)
+        
         Future Bonus:  Find the closest reported issues to your current location.
 """
 
@@ -55,7 +56,7 @@ report_data = df[['latitude', 'longitude']].dropna().values.tolist() # extractin
 
 closest_issue, distance = find_closest_issue(user_location, report_data) # finding closest issue
 
-# Output Results
+# results
 print("Your Location:", user_location)
 print("Closest Reported Issue is at:", closest_issue)
 print("Distance:", f"{distance:.2f} km")
