@@ -5,13 +5,13 @@ Engineer: Dylan Ramdhan
 Mission of Module: If user gives two arrays of Geolocations, match each point in the first array
                     to its closest neighbor in the second array.
                     
-    Formula for distance between two GPS location:  
-        --> Haversine formula: https://en.wikipedia.org/wiki/Haversine_formula
+Formula for distance between two GPS location:  
+    --> Haversine formula: https://en.wikipedia.org/wiki/Haversine_formula
     
-    --->> UNIT TESTING #1 <<---
-    First Input:  Your current GPS location
-    Second Vector:  Columns AB and  AC of Boston 311 2025  Report (you can find the originals in:  https://data.boston.gov/dataset/311-service-requests)
-    Future Bonus:  Find the closest reported issues to your current location.
+        --->> UNIT TESTING #1 <<---
+        First Input:  Your current GPS location
+        Second Vector:  Columns AB and  AC of Boston 311 2025  Report (you can find the originals in:  https://data.boston.gov/dataset/311-service-requests)
+        Future Bonus:  Find the closest reported issues to your current location.
 """
 
 import math
@@ -59,7 +59,6 @@ closest_issue, distance = find_closest_issue(user_location, report_data) # findi
 print("Your Location:", user_location)
 print("Closest Reported Issue is at:", closest_issue)
 print("Distance:", f"{distance:.2f} km")
-
 
 
 """
