@@ -58,6 +58,8 @@ def find_closest_airport(cities, airports):
 
     return results
 
+cities_file = "/Users/dylanramdhan/Documents/GitHub/Personal Repo/Courses/EC 530 - Software Engineering Principles/hw1/data/Major_Cities_GPS.csv"
+airports_file = "/Users/dylanramdhan/Documents/GitHub/Personal Repo/Courses/EC 530 - Software Engineering Principles/hw1/data/iata-icao.csv"
 
 # files
 cities_file = "/Users/dylanramdhan/Documents/GitHub/Personal Repo/Courses/EC 530 - Software Engineering Principles/hw1/data/unit-test3-cities.csv" # cities
