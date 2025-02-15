@@ -62,9 +62,6 @@ print("Closest Reported Issue is at:", closest_issue)
 print("Distance:", f"{distance:.2f} km")
 
 
-"""
-My output:
-    Your Location: (42.350083, -71.103209)
-    Closest Reported Issue is at: (42.34988626501212, -71.10304421603614)
-    Distance: 0.03 km
-"""
+# pytest unit-test1.py
+def test_haversine_distance():
+    assert haversine_distance(42.350083, -71.103209, 40.7128, -74.0060) > 0

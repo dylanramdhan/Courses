@@ -112,3 +112,7 @@ matches = find_closest_airport(cities, airports)
 print("Closest Airports to Cities:")
 for city, airport, distance in matches:
     print(f"{city} → Closest Airport: {airport} ({distance} km)")
+    
+# pytest unit-test3.py
+def test_haversine_distance():
+    assert haversine_distance(42.350083, -71.103209, 40.7128, -74.0060) > 0
