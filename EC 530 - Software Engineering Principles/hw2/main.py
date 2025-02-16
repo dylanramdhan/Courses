@@ -17,7 +17,7 @@
     Note: Add error checking into the APIs
 """
 
-from flask import Flask, jsonify
+from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
@@ -32,6 +32,17 @@ users = {}
 houses = {}
 rooms = {}
 devices = {}
+
+
+@app.route("/users/register", methods=["POST"])
+def register_user():
+    data = request.json  # <-- This will now work
+    return jsonify({"message": "User registered"}), 201
+
+@app.route("/houses", methods=["POST"])
+def create_house():
+    data = request.json  # <-- This will now work
+    return jsonify({"message": "House created"}), 201
 
 
 # user endpoints
