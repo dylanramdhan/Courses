@@ -1,0 +1,6 @@
+{
+    "house_id": "H1001",
+    "owner_id": "12345",
+    "address": "123 Main St, Boston, MA",
+    "rooms": ["R2001", "R2002"]
+}  

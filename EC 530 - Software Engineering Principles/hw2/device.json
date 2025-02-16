@@ -1,0 +1,10 @@
+{
+    "device_id": "D3001",
+    "room_id": "R2001",
+    "type": "Light",
+    "status": "ON",
+    "settings": 
+        {
+        "brightness": 80
+        }
+}  

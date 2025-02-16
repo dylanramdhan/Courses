@@ -1,0 +1,6 @@
+{
+    "user_id": "12345",
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "password": "hashed_password"
+}  

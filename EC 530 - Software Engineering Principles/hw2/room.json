@@ -1,0 +1,6 @@
+{
+    "room_id": "R2001",
+    "house_id": "H1001",
+    "name": "Living Room",
+    "devices": ["D3001", "D3002"]
+}
