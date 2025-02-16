@@ -1,0 +1,1 @@
+In this assingment, we were tasked to develop and design an API, with an analogy of a house.
