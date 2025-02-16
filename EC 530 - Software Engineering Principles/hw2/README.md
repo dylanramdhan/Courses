@@ -1,1 +1,1 @@
-In this assingment, we were tasked to develop and design an API, with an analogy of a house.
+In this assingment, we were tasked to _develop_ and _design_ an API, with an analogy of a house.
