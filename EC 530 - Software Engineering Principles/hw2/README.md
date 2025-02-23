@@ -1,6 +1,6 @@
 ## API Design
-In this assingment, we were tasked to _develop_ and _design_ an API, with an analogy of a house.
+In this assignment, we were tasked to _develop_ and _design_ an API, with an analogy of a house.
 
-Engineer: Dylan Ramdhan
+_Engineer: Dylan Ramdhan_
 
 Resource: https://www.youtube.com/watch?v=zsYIw6RXjfM
