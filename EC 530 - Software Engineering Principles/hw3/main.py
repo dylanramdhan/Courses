@@ -2,7 +2,7 @@
     Assignment #3, due date: 2/25/2025
     Engineer: Dylan Ramdhan
     
-    Focus: Understanding Concurrency: Multi-Threding & Multi-Processing
+    Focus: Understanding Concurrency - Multi-Threding & Multi-Processing
     
     Tasks:
     --> Develop a queue system where it can process requests of an API of your choosing.  For example, the API that you want to queue is to do a numpy api (e.g., numpy.matmul() )
