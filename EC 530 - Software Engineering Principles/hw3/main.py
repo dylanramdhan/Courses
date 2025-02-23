@@ -1,5 +1,5 @@
 """
-    Assignment #1, due date: 1/23/2025
+    Assignment #3, due date: 2/25/2025
     Engineer: Dylan Ramdhan
     
     Focus: Understanding Concurrency: Multi-Threding & Multi-Processing
@@ -19,49 +19,53 @@ import queue
 import numpy as np
 import time
 
-# Configurable Queue Size
+# config queue size
 QUEUE_SIZE = 10  
 task_queue = queue.Queue(maxsize=QUEUE_SIZE)
 
 def matrix_multiplication():
-    """ Function to perform matrix multiplication """
-    size = 1000  # Large matrix size for stress testing
+    # function to perform matrix multiplication
+    size = 1000  # large matrix size for stress testing
     A = np.random.rand(size, size)
     B = np.random.rand(size, size)
     return np.matmul(A, B)
 
 def worker():
-    """ Worker function to process tasks from the queue """
+    # worker function to process tasks from queue
     while True:
         task = task_queue.get()
         if task is None:
-            break  # Exit condition
+            break # stop signal
         result = matrix_multiplication()
         print(f"Task {task} completed")
         task_queue.task_done()
 
-# Creating Threads
-NUM_THREADS = 4  # Configurable number of threads
+
+# creating threads
+NUM_THREADS = 4  # config number of threads
 threads = []
 for _ in range(NUM_THREADS):
     t = threading.Thread(target=worker)
     t.start()
     threads.append(t)
 
-# Adding tasks to the queue
-NUM_TASKS = 20  # Number of tasks to process
+
+
+# adding tasks to queue
+NUM_TASKS = 20  # number of tasks to process
 for i in range(NUM_TASKS):
     task_queue.put(i)
-    time.sleep(0.1)  # Simulate different call rates
+    time.sleep(0.1)  # simulating different call rates
 
-# Waiting for all tasks to complete
-task_queue.join()
+task_queue.join() # waiting for all tasks to complete
 
-# Stopping threads
+
+
+# stopping threads
 for _ in range(NUM_THREADS):
-    task_queue.put(None)  # Stop signal
+    task_queue.put(None)  # stopping signal
 
 for t in threads:
     t.join()
 
-print("Multi-threading queue processing completed.")
+print("Multi-threading queue processing completed.") # print end message

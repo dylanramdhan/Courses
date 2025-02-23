@@ -1,15 +1,15 @@
 """"
-Assignment #1, due date: 1/23/2025
-Engineer: Dylan Ramdhan
+    Assignment #1, due date: 1/23/2025
+    Engineer: Dylan Ramdhan
 
-Mission of Module: If user gives two arrays of Geolocations, match each point in the first array
-                    to its closest neighbor in the second array.
-                    
-Formula for distance between two GPS location:  
-    --> Haversine formula: https://en.wikipedia.org/wiki/Haversine_formula
+    Mission of Module: If user gives two arrays of Geolocations, match each point in the first array
+                        to its closest neighbor in the second array.
+                        
+    Formula for distance between two GPS location:  
+        --> Haversine formula: https://en.wikipedia.org/wiki/Haversine_formula
 
-RESULTS: After running the Coverage code, the results show that approximately 99% average of all the unit-test files 
-    with a few statements missing from unit-tests3.py and unit-tests4.py.
+    RESULTS: After running the Coverage code, the results show that approximately 99% average of all the unit-test files 
+        with a few statements missing from unit-tests3.py and unit-tests4.py.
 """
 
 import math
