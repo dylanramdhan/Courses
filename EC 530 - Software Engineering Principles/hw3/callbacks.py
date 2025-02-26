@@ -11,9 +11,19 @@ import numpy as np
 import time
 import logging
 
+import os # only used for "logging" folder
+
+####### CONFIGURING LOGGING ########
 # config logging
-logging.basicConfig(filename="callback_system.log", level=logging.INFO,
+log_dir = "/Users/dylanramdhan/Documents/GitHub/Personal Repo/Courses/EC 530 - Software Engineering Principles/hw3/logging"
+os.makedirs(log_dir, exist_ok=True)
+
+# configured logging file to save logs in the "logging" folder
+log_file_path = os.path.join(log_dir, "callback_system.log")
+logging.basicConfig(filename=log_file_path, level=logging.INFO,
                     format="%(asctime)s - %(levelname)s - %(message)s")
+####################################
+
 
 # configurable queue size
 QUEUE_SIZE = 10 ## small queue size
