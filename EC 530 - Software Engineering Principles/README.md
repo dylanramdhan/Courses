@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## EC 530: Software Engineering Principles
 
 ### Course Description
