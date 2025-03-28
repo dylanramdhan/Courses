@@ -7,8 +7,5 @@ This class was designed to bring the basic concepts of software engineering toge
 💻 Python <br>
 👨🏽‍💻 CI/CD, Unit Testing, API Design, Rest APIs, Multi-Threading/Multi-Processing<br>
 
-
-Note: make unit tests for each program
-=======
 # Courses
 In this repo, you'll see the courses I've taken and the many projects and coursework that I've done! 
