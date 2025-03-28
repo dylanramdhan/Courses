@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## EC 530: Software Engineering Principles
 
 ### Course Description
@@ -9,3 +10,7 @@ This class was designed to bring the basic concepts of software engineering toge
 
 
 Note: make unit tests for each program
+=======
+# Courses
+In this repo, you'll see the courses I've taken and the many projects and coursework that I've done! 
+>>>>>>> 69a35507744b794692c751821e95ef03efa64b90
