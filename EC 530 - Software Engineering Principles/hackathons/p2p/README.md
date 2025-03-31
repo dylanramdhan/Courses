@@ -5,7 +5,7 @@ In this assingment, we were asked to create a Peer to Peer Messaging Subscriptio
 
 - Mission of Module: Peer to Peer Project <br>
         - Tasks: <br>
-            > - Create a Peer to Peer Network <br>
+            -- Create a Peer to Peer Network <br>
             - Integrate database <br>
             - Complete offline features <br>
             - Design message protocol for automation/notification application <br>
