@@ -10,6 +10,4 @@ Step 3:  Handle Schema Conflicts
 Step 4:  Simulate AI using input (the input to be schemas)
 Step 5:  Add AI to generate SQL
 
-(https://github.com/openai/openai-python)[OpenAI Python Library]
-
 """
