@@ -6,6 +6,3 @@ This class was designed to bring the basic concepts of software engineering toge
 ### Skillset Developed
 💻 Python <br>
 👨🏽‍💻 CI/CD, Unit Testing, API Design, Rest APIs, Multi-Threading/Multi-Processing<br>
-
-# Courses
-In this repo, you'll see the courses I've taken and the many projects and coursework that I've done! 
