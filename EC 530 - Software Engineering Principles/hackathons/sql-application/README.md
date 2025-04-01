@@ -1,4 +1,4 @@
-## SQL Application: Using LLM as UX
+## SQL Application
 
 ### Project Description
-Develop an equivalent to Excel or Google Sheet application where the interaction with the application is a chat interaction.
+For this hackathon project, we are tasked to develop an equivalent to Excel/Google Sheet application, and have the interaction with the application a chat interaction.

@@ -1,0 +1,1 @@
+Assigned weekly individual hackathons
