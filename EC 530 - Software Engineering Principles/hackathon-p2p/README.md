@@ -5,8 +5,8 @@ In this assingment, we were asked to create a Peer to Peer Messaging Subscriptio
 
 
 #### Phases:
-- Phase 1: <br>
--- test
+- Phase 1:
+   - test
 - Phase 2:
+  - test
 - Phase 3:
-- Phase 4:
