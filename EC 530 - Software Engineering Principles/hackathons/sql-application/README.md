@@ -5,4 +5,4 @@ For this hackathon project, we are tasked to develop an equivalent to Excel/Goog
 
 Resources: [OpenAI Python Library](https://github.com/openai/openai-python)
 
-![Main Menu](./ss/image.png)
+<img src="./ss/image.png" width="30%">
