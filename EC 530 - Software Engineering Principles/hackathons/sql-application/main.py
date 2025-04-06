@@ -80,8 +80,8 @@ def ask_llm_query(conn):
 
 ## main menu
 def main():
-    print("Welcome to ChatSheet!")
-    print("WHat can I help you with today?")
+    print("\nWelcome to ChatSheet!")
+    print("What can I help you with today?")
     conn = sqlite3.connect(DB_PATH)
 
     while True:
@@ -102,7 +102,7 @@ def main():
         elif choice == "4":
             ask_llm_query(conn)
         elif choice == "5":
-            print("Goodbye!")
+            print("Goodbye!\n")
             break
         else:
             print("Sorry! Invalid option. Please try again.")

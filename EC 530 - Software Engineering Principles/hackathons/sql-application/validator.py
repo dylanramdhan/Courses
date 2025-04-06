@@ -1,13 +1,13 @@
 """
-    This file contains functions to:
-        - validate the schema of a SQLite table
-        - handle conflicts when loading data
-        - log errors to a TXT file
+This file contains functions to:
+    - validate the schema of a SQLite table
+    - handle conflicts when loading data
+    - log errors to a TXT file
 """
 
 import sqlite3
 import os
-from typing import Literal
+from typing import Literal, Optional
 
 def validate_table_schema(conn: sqlite3.Connection, table_name: str) -> list:
     cursor = conn.cursor()
@@ -37,7 +37,7 @@ def log_error(message: str, filename: str = "error_log.txt"):
     with open(filename, "a") as log_file:
         log_file.write(message + "\n")
 
-def check_table_conflict(table_name: str, conn: sqlite3.Connection) -> str:
+def check_table_conflict(conn: sqlite3.Connection, table_name: str) -> Optional[str]:
     """
     Check if a table with the given name already exists in the database.
     If it does, prompt the user to choose: Overwrite, Rename, or Skip.

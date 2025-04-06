@@ -1,8 +1,8 @@
 """
     This file will take a user's question and send it along with the schema to OpenAI,
-        and should return a SQL statement that answers the user's intial question.
-        
-        Resources: https://github.com/openai/openai-python
+    and return a SQL statement that answers the user's initial question.
+
+    Resources: https://github.com/openai/openai-python
 """
 
 import openai
@@ -30,7 +30,7 @@ Output Format:
 """
 
     try:
-        response = openai.ChatCompletion.create(
+        response = openai.ChatCompletion.create(  # <- OLD SYNTAX
             model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": "You are a helpful assistant for SQL generation."},
@@ -39,8 +39,7 @@ Output Format:
             temperature=0.2,
             max_tokens=300,
         )
+        return response['choices'][0]['message']['content'].strip()
 
-        reply = response['choices'][0]['message']['content']
-        return reply.strip()
     except Exception as e:
         return f"[ERROR] Failed to generate SQL: {e}"
