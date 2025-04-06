@@ -2,8 +2,8 @@
     This file contains a function to dynamically generate a SQLite CREATE TABLE statement from a CSV's inferred schema.
 """
 
-
 import pandas as pd
+import sqlite3
 
 def infer_sqlite_schema(df: pd.DataFrame, table_name: str) -> str:
     """
@@ -30,3 +30,14 @@ def infer_sqlite_schema(df: pd.DataFrame, table_name: str) -> str:
     );
     """
     return create_stmt.strip()
+
+
+def infer_and_create_table(df: pd.DataFrame, table_name: str, conn: sqlite3.Connection) -> None:
+    """
+    Infer the schema and execute a CREATE TABLE statement using the connection provided.
+    """
+    create_stmt = infer_sqlite_schema(df, table_name)
+    print(f"[INFO] Executing SQL:\n{create_stmt}\n")
+    cursor = conn.cursor()
+    cursor.execute(create_stmt)
+    conn.commit()
