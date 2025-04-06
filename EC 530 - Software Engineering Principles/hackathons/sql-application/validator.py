@@ -5,7 +5,6 @@
         - log errors to a TXT file
 """
 
-
 import sqlite3
 import os
 from typing import Literal
@@ -38,20 +37,32 @@ def log_error(message: str, filename: str = "error_log.txt"):
     with open(filename, "a") as log_file:
         log_file.write(message + "\n")
 
-def check_and_handle_conflict(conn: sqlite3.Connection, table_name: str) -> str:
+def check_table_conflict(table_name: str, conn: sqlite3.Connection) -> str:
+    """
+    Check if a table with the given name already exists in the database.
+    If it does, prompt the user to choose: Overwrite, Rename, or Skip.
+    Returns the final table name to use or None to skip.
+    """
     cursor = conn.cursor()
     cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name=?", (table_name,))
-    exists = cursor.fetchone()
+    existing = cursor.fetchone()
 
-    if exists:
-        action = prompt_on_conflict(table_name)
-        if action == "overwrite":
+    if not existing:
+        return table_name  # No conflict
+
+    print(f"[WARNING] Table '{table_name}' already exists.")
+    while True:
+        user_choice = input("Do you want to (O)verwrite, (R)ename, or (S)kip? ").strip().lower()
+        if user_choice == 'o':
             cursor.execute(f"DROP TABLE IF EXISTS {table_name}")
             conn.commit()
+            print(f"[INFO] Table '{table_name}' overwritten.")
             return table_name
-        elif action == "rename":
+        elif user_choice == 'r':
             new_name = input("Enter new table name: ").strip()
             return new_name
-        elif action == "skip":
+        elif user_choice == 's':
+            print(f"[INFO] Skipping table '{table_name}'.")
             return None
-    return table_name
+        else:
+            print("Invalid input. Please enter O, R, or S.")

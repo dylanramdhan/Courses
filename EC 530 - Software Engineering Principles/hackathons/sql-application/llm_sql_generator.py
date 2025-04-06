@@ -10,7 +10,7 @@ import os
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-def generate_sql_from_question(schema_str, user_question):
+def ask_llm(schema_str, user_question):
     prompt = f"""
 You are an AI assistant tasked with converting user queries into SQL statements.
 The database uses SQLite and contains the following schema:
