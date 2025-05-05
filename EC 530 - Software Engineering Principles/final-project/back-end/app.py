@@ -1,32 +1,17 @@
-from flask import request
-import sqlite3
-import pandas as pd
-import os
-import io
+from flask import Flask
+from routes.upload_routes import upload_blueprint
+from routes.query_routes import query_blueprint
+from routes.grades_routes import grades_blueprint
 
-DB_PATH = "./data/professor.db"
-os.makedirs("./data", exist_ok=True)
+app = Flask(__name__)
 
-def get_db_connection():
-    return sqlite3.connect(DB_PATH)
+app.register_blueprint(upload_blueprint)
+app.register_blueprint(query_blueprint)
+app.register_blueprint(grades_blueprint)
 
-@app.route("/upload", methods=["POST"])
-def upload_csv():
-    if "file" not in request.files or "table_name" not in request.form:
-        return {"error": "file and table_name required"}, 400
+@app.route("/")
+def home():
+    return {"message": "Professor Assistant API is running!"}
 
-    file = request.files["file"]
-    table_name = request.form["table_name"]
-
-    try:
-        # Read CSV into pandas
-        df = pd.read_csv(file)
-
-        # Save to SQLite
-        conn = get_db_connection()
-        df.to_sql(table_name, conn, if_exists="replace", index=False)
-        conn.close()
-
-        return {"message": f"Uploaded successfully as table '{table_name}' with {len(df)} rows."}
-    except Exception as e:
-        return {"error": str(e)}, 500
+if __name__ == "__main__":
+    app.run(debug=True)
